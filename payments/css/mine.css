@@ -1,0 +1,87 @@
+body{
+  background: #adadad;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ff{
+
+}
+.card{
+  box-shadow: 4px 4px 12px grey;
+}
+.forms{
+  width: 90%;
+  margin-top: 20px;
+  overflow: hidden;
+}
+ h3{
+  text-align:center;
+  padding: 8px;
+  color: #595959;
+  font-family: 'Ibarra Real Nova', serif;
+}
+.txt1{
+  font-family: 'Ibarra Real Nova', serif;
+}
+.nb-btn{
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+
+@media screen and (max-width: 404px)
+and (min-width: 0px){
+  .plans{
+    width: 95%!important;
+    float: none!important;
+    margin: auto!important;
+  }
+}
+.plans{
+  height: 50px;
+  width: 33%;
+  display: block;
+  float: left !important;
+  margin-right: 1px;
+  line-height: 88px;
+  height: 88px;
+  text-align: center;
+  color: #d3d3d3;
+  border: 1px solid #d3d3d3;
+}
+.plan p{
+  color: red;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+.plan-container{
+  margin-bottom: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+.btn-validate{
+  display: block;
+  margin: auto;
+  width: 100px;
+  color: snow!important;
+}
+.letMeIn{
+  display: none;
+  margin: auto;
+}
+.error-txt{
+  color: red;
+  font-size: 80%;
+  font-weight: bold;
+}
+.displayBlock{
+  display: block!important;
+  margin: auto;
+}
